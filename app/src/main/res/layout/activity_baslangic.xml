@@ -15,5 +15,5 @@
         android:src="@drawable/baslangiclogo"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="false" />
 </RelativeLayout>
