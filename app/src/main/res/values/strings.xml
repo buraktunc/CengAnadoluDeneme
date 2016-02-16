@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CengAnadoluDeneme</string>
+    <string name="app_name">CengAnadolu</string>
     <string name="usernameGiris">Username</string>
     <string name="passwordGiris">Password</string>
     <string name="loginButtonGiris">LOGIN</string>
