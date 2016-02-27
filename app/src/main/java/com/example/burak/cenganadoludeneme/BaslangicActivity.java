@@ -30,7 +30,7 @@ public class BaslangicActivity extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                Intent intent = new Intent(BaslangicActivity.this, GirisActivity.class);
+                Intent intent = new Intent(BaslangicActivity.this, MenuActivity.class);
                 startActivity(intent);
                 BaslangicActivity.this.finish();
             }

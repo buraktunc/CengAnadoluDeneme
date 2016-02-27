@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/backimage"
+    android:weightSum="1">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backimage"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="20dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp">
 
-</LinearLayout>
+        <TableRow>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/coursesButton"
+            android:background="@android:color/transparent"
+            android:src="@drawable/coursesicon1"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/departmentButton"
+            android:background="@android:color/transparent"
+            android:src="@drawable/departmenticon2" />
+        </TableRow>
+
+        <TableRow>
+        <ImageButton
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forumButton"
+            android:background="@android:color/transparent"
+            android:src="@drawable/forumicon1"/>
+
+            <ImageButton
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/extrasButton"
+                android:background="@android:color/transparent"
+                android:src="@drawable/extrasicon"
+                android:paddingRight="10dp"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aboutButton"
+                android:background="@android:color/transparent"
+                android:src="@drawable/abouticon"/>
+
+            <ImageButton
+                android:paddingTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/contactsButton"
+                android:background="@android:color/transparent"
+                android:src="@drawable/contacticon"
+                />
+
+
+
+
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
