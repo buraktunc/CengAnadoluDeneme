@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backimage1"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2,3">
+
+
+            <TableRow
+                android:id="@+id/tableRow0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvCredit1"
+                    android:layout_column="0"
+                    android:text="@string/credit">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvGrade1"
+                    android:text="@string/grade"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCredit1"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade1"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/etCredit2"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade2"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCredit3"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade3"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCredit4"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade4"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCredit5"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade5"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCredit6"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade6"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCredit7"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade7"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCredit8"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade8"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCredit9"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade9"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCredit10"
+                    android:layout_column="0"
+                    android:hint="0.00">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etGrade10"
+                    android:layout_column="1"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="2"
+                    android:digits="ABCDFZ"
+                    android:hint="FF">
+                </EditText>
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:id="@+id/btnCalculateGpa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/calculate"
+                    android:background="#62130e"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clear"
+                    android:id="@+id/btnClear"
+                    android:background="#62130e"
+                    android:textColor="#ffffff" />
+
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:text="@string/total_credit"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:id= "@+id/tvTotalCredit1"
+                    android:hint="0"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:text ="@string/your_gpa"
+                    />
+                <TextView
+                    android:id = "@+id/tvYourGpa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:hint="0.00"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

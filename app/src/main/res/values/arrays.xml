@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android Version Names -->
+    <string-array name="version_names">
+        <item>@string/about</item>
+        <item>@string/people</item>
+        <item>@string/infrastructure</item>
+        <item>@string/erasmus</item>
+        <item>@string/contact</item>
+
+    </string-array>
+
+    <!-- Version Descriptions-->
+    <string-array name="version_descriptions">
+        <item>@string/about_description</item>
+        <item>@string/people_description</item>
+        <item>@string/infrastructure_description</item>
+        <item>@string/erasmus_description</item>
+        <item>@string/contact_description</item>
+
+    </string-array>
+</resources>

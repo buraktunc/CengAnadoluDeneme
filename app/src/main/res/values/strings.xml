@@ -5,4 +5,79 @@
     <string name="loginButtonGiris">LOGIN</string>
     <string name="title_activity_menu">MenuActivity</string>
     <string name="action_settings">Settings</string>
+
+
+    //MenuActivity'nin butonları
+    <string name="aboutButton">About</string>
+    <string name="peopleButton">People</string>
+    <string name="infrastructureButton">Infrastructure</string>
+    <string name="erasmusButton">Erasmus</string>
+    <string name="linksButton">Links</string>
+    <string name="contactButton">Contact</string>
+
+    //CalculateActivity'nin içeriği
+    <string name="credit">Credit</string>
+    <string name="grade">Grade</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="clear">CLEAR</string>
+    <string name="total_credit">Total Credit: </string>
+    <string name="your_gpa">Your GPA: </string>
+
+
+    //DepartmentActivity'nin içeriği
+    <string name="about">About</string>
+    <string name="about_description">About the Department: \n With recent advances in industry and technology, there is an ever increasing demand for expert technical staff on computer technologies. Anadolu University Computer Engineering Department was founded in 1993 to educate computer engineers equipped with cutting-edge tecnological skills. Our department has a B.Sc. program since 2000-2001 Fall semester. Without making concession of the good quality, both academic staff and the infrastructure are improved in order to keep up with the changes in computer technologies. The aim of the department is to graduate well-educated and conscious computer engineers who obey ethical rules. There are also graduate programs offered by the department.
+
+\n \n Language of instruction is English at the department. Duration of the B.Sc. program is 5 years, one of which is spent at the English preparation school. The department is founded on Iki Eylul campus of Anadolu University with 5000 m2 footprint.
+
+\n \n Computer Engineering Program of Anadolu University is accredited by MÜDEK (Member of EUR-ACE and International Engineering Alliance) from 30 September 2009 until 30 September 2014.s</string>
+
+    <string name="people">People</string>
+    <string name="people_description"> 1-Prof.Dr. Yaşar HOŞCAN, hoscan@anadolu.edu.tr \n 2-Prof.Dr. Yusuf OYSAL, yoysal@anadolu.edu.tr \n 3-Assoc.Prof.Dr. Hüseyin POLAT(Department Chair), polath@anadolu.edu.tr \n 4-Assoc.Prof.Dr.Cüneyt AKINLAR,cakinlar@anadolu.edu.tr \n 5-Assoc.Prof.Dr.Serkan GÜNAL,serkangunal@anadolu.edu.tr \n 6-Assoc.Prof.Dr. Özgür YILMAZEL, ozgur@anadolu.edu.tr \n 7-Assoc. Prof. Dr.Cihan KALELİ,ckaleli@anadolu.edu.tr \n 8-Asst.Prof.Dr.Alper BİLGE(Erasmus+ Coordinator),abilge@anadolu.edu.tr \n 9-Asst.Prof.Dr.Muzaffer DOĞAN,muzafferd@anadolu.edu.tr \n 10-Asst.Prof.Dr. İbrahim YAKUT,iyakut@anadolu.edu.tr \n 11-Asst.Prof.Dr.Alper Kürşat UYSAL,akuysal@anadolu.edu.tr \n 12-Asst.Prof.Dr. Sedat TELÇEKEN,stelceken@anadolu.edu.tr \n 13-Asst.Prof.Dr. Sevcan YILMAZ,sevcany@anadolu.edu.tr \n 14-Lect. Özgur ÖZŞEN,oozsen@anadolu.edu.tr \n 15-Lect.Emre KAÇMAZ,emrekacmaz@anadolu.edu.tr \n 16-Lect. Reha Oguz ALTUĞ,roaltug@anadolu.edu.tr</string>
+
+    <string name="infrastructure">Infrastructure</string>
+    <string name="infrastructure_description"> Classes \t \t \t Capacity \n
+                                               Class-B1 \t 36 \n
+                                               Class-B2 \t 15 \n
+                                               Class-B3 \t 18 \n
+                                               Class-B4 \t 24 \n
+                                               Class-B5 \t 15 \n
+                                               Class-B6 \t 24 \n
+                                               Class-B7 \t 54 \n
+                                               \n
+                                               Laboratories \t \t Computer \n
+                                               Lab-01 \t \t \t 61 PC \n
+                                               Lab-02 \t \t \t 24 iMac</string>
+
+    <string name="erasmus">Erasmus</string>
+    <string name="erasmus_description">ERASMUS is the EU’s flagship education and training programme enabling 200.000 students to study and work abroad each year. In addition, it funds co-operation between higher education institutions across Europe. The programme not only supports students, but also professors and business staff who want to teach abroad, as well as helping university staff to receive training.
+        \n
+        \n
+    Department Agreements: \n
+        1-Bialystok University of Technology \n
+        2-Romanian American University \n
+        3-FH Vorarlberg University of Applied Science \n
+        4-Siauliai University \n
+        5-University of Alicante \n
+        6-Cracow University of Technology \n
+        7-Lublin University of Technology \n
+        8-Maria Curie- Sklodowska University \n
+        9-University of Oradea \n
+        10-Warsaw University of Technology \n
+        11-VSB-Technical University of Ostrava \n
+        12-Windesheim University of Applied Sciences \n
+        13-Brno University of Technology \n
+        14-Polytechnic Instıtute of Guarda \n
+        15-The AGH University of Science and Technology \n
+        16-Rovaniemi University of Applied Science \n \n
+    </string>
+
+    <string name="contact">Contact</string>
+    <string name="contact_description"> Contact Information: \n \n
+    Postal Address: Anadolu Üniversitesi Mühendislik Fakültesi Bilgisayar Mühendisliği Bölümü İki Eylül Kampüsü 26555 Eskisehir/TURKIYE \n
+        Phone: \n +90(222) \t 321 \t 35 \t 50 /6550\n
+        Fax: \n +90 (222) \t 323 \t 95 \t 01
+    </string>
+
+
 </resources>
